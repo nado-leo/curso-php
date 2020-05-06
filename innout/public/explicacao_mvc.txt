@@ -1,0 +1,22 @@
+Visão Geral MVC: M(Model) , V(Viwer) , C(Controller).
+Model : Acessa a base de dados
+Controller: distribue o fluxo da aplicação
+View : Rederesa o conteudo para o browser
+
+
+Fluxos MVC:
+1° Não Precisa de acessa
+	Controller: recebe a requisição > Ver que não precisa de dados > passa para view > a view devove a requisicao para o browser renderizada.
+
+2° Precisa de acessa banco de dados
+	Controller > recebe a requisição > ver que vai precisar acessaro banco de dados > passa paro o model > o model  faz a consulta no banco devolve para o controller > o controller passa para view > a view devolve a requisição renderizada.	
+
+
+View : trabalha com css,javascript,codigo html ,template engini
+Controller : vai direcionar o fluxo
+Model: trabalha com sql,banco de dados ,com a logica da aplicação
+
+Analogia Predio:
+O predio representa a Aplicação como um todo
+A recepcionista representa o framework
+O oficeboy reprezenta o controller
